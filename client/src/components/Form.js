@@ -13,8 +13,6 @@ const Form = () => {
   const [modalStatus, setModalStatus] = useState(false);
   const [contentModal, setContentModal] = useState("");
   const [permanentModal, setPermanentModal] = useState(contentModal);
-  console.log("contens", contentModal);
-  console.log("permanet", permanentModal);
 
   useEffect(() => {
     validateEmail({ email, setEmailError });
